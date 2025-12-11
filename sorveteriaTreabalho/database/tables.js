@@ -66,6 +66,6 @@ Fornecedor.hasMany(Produto);
 Compra.belongsTo(Clientes);
 Clientes.hasMany(Compra);
 
-mysql.sync();
+mysql.sync({force: true});
 
 export { Clientes, Funcionario, Produto, Categoria, Fornecedor, Empresas, Compra };
