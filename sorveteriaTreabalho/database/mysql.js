@@ -16,7 +16,7 @@ const mysql = new Sequelize({
 const mysql = new Sequelize({
     dialect: 'postgres',
     dialectModule: pg,
-    host: 'dpg-d4tamteuk2gs73emo8f0-a.oregon-postgres.render.com ',
+    host: 'dpg-d4tamteuk2gs73emo8f0-a.oregon-postgres.render.com',
     port: '5432',
     database: 'sorveteria_zevq',
     username: 'tayssa',
