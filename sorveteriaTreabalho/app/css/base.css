@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Serif Text", serif;
+
+}
+body {
+    background-color: rgb(233, 213, 230) ;
+}
+
+header{
+
+    background-color: rgb(245, 243, 217);
+    height: 8vh;
+}
+
+main{
+
+    background-color: azure;
+    min-height: 84vh;
+
+}
+
+footer{
+    background-color: rgb(240, 234, 227);
+    height: 8vh;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+p{
+    color: aliceblue;
+    text-align: center;
+    }
+
+}
+.bt-classico{
+    padding: 8px;
+    margin: 2px;
+    border: 0.1px rgb(215, 209, 253);
+    font-size: 1.3em;
+    background-color: white;
+}

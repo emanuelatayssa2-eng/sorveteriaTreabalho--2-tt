@@ -1,0 +1,35 @@
+main{
+
+    padding-top: 15px;
+
+    div{
+        width: 80%;
+        margin: auto;
+
+        h1{
+            margin: 15px;
+        }
+
+        table{
+            width: 100%;
+            border: color(srgb rgb(133, 15, 15) rgb(133, 15, 15) rgb(133, 15, 15));
+            border-collapse: collapse;
+
+            th, td{
+                padding: 5px;
+                border: color(srgb rgb(133, 15, 15) rgb(133, 15, 15) rgb(133, 15, 15));
+            }
+
+            .ceculaBotao {
+
+                button {
+                    margin: 2px;
+                    background-color: transparent;
+                    border: 0.2px solid plum;
+                    border-radius: 5px
+
+                }
+            }
+        }
+    }
+}
