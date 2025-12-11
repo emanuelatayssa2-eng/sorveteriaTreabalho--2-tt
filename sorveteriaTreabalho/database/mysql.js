@@ -1,6 +1,7 @@
 import { Sequelize } from "sequelize";
 import mysql2 from "mysql2";
-
+import pg from 'pg';
+/*
 const mysql = new Sequelize({
     dialect: 'mysql',
     dialectModule: mysql2,
@@ -10,5 +11,15 @@ const mysql = new Sequelize({
     username: 'root',
     password: 'root'
 });
+*/
 
+const mysql = new Sequelize({
+    dialect: 'postgres',
+    dialectModule: pg,
+    host: 'dpg-d4tamteuk2gs73emo8f0-a',
+    port: '5432',
+    database: 'sorveteria_zevq',
+    username: 'tayssa',
+    password: 'woBXcoNkz9En09Mt06NShzyeRWeTuelK'
+});
 export default mysql;
