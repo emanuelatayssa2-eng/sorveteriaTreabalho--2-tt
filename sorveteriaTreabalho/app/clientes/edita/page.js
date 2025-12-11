@@ -1,6 +1,6 @@
 import {Clientes} from '../../../database/tables';
 import {redirect} from 'next/navigation';
-import { revalidatePath } from 'next/cache';
+
 import "../../css/cadastro.css";
 
 
@@ -22,7 +22,7 @@ async function editaClientes(formData) {
     clientes.cpf = cpf;
 
     await clientes.save();
-    revalidatePath('/clientes');
+  
     redirect('/clientes')
 
 }
