@@ -1,8 +1,9 @@
 import {Clientes} from '../../../database/tables';
 import {redirect} from 'next/navigation';
+import { revalidatePath } from 'next/cache';
 import "../../css/cadastro.css";
 
-import { revalidatePath } from 'next/cache';
+
 
 async function editaClientes(formData) {
 
